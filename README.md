@@ -2,3 +2,4 @@
 Personal Portfolio Site
 # Features
 ## About Me
+## Education

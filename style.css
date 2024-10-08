@@ -8,17 +8,17 @@
 }
 .header{
     position:fixed;
+    margin-top: 0px;
     top: 0;
     left: 0;
     width: 100%;
     padding: 35px 12%;
-    background: #3D3B40;
-    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(12px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    color:white;
 }
 .logo {
     font-size: 25px;
@@ -52,14 +52,25 @@
     border-radius: 8px;
     font-size: 16px;
     letter-spacing: 1px;
-    font-weight: 500;
-    transition: ease;
+    font-weight: 600;
+    transition: 0.3s ease;
 }
 .resume:hover{
     background: red;
     box-shadow: 0 0 25px red;
     color: white;
+    transform: scale(1.1);
 }
-section {
-    color: black;
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.about-content{
+    max-width: 800px;
+
 }

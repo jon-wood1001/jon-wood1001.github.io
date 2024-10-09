@@ -63,7 +63,7 @@
 }
 .about{
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background: white;
     display: flex;
     align-items: center;
@@ -72,5 +72,64 @@
 }
 .about-content{
     max-width: 800px;
-
+}
+.education{
+    width: 100%;
+    min-height: 50vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.education-content{
+    max-width: 800px;
+}
+.experience{
+    width: 100%;
+    min-height: 50vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.experience-content{
+    max-width: 800px;
+}
+.projects{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.projects-content{
+    max-width: 800px;
+}
+.links{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.links-content{
+    max-width: 800px;
+}
+.experience{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.experience-content{
+    max-width: 800px;
 }

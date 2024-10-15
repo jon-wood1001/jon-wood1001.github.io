@@ -65,31 +65,36 @@
 .about{
     width: 100%;
     min-height: 50vh;
-    background: white;
+    background: lightgreen;
     display: flex;
     align-items: center;
     gap: 7em;
     padding: 30px 12% 0;
+    transition: 0.3s ease;
 }
 .about-content{
     max-width: 800px;
 }
-.education{
+
+.education-and-certifications{
     width: 100%;
     min-height: 50vh;
-    background: white;
-    display: flex;
+    background: lightcoral;
     align-items: center;
+    display: flex;
     gap: 7em;
     padding: 30px 12% 0;
 }
 .education-content{
     max-width: 800px;
 }
+.certifications-content {
+    max-width: 800px;
+}
 .experience{
     width: 100%;
     min-height: 50vh;
-    background: white;
+    background: lightblue;
     display: flex;
     align-items: center;
     gap: 7em;
@@ -101,7 +106,7 @@
 .projects{
     width: 100%;
     min-height: 50vh;
-    background: white;
+    background: lightsalmon;
     display: flex;
     align-items: center;
     gap: 7em;
@@ -113,11 +118,21 @@
 .links{
     width: 100%;
     background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    gap: 2em;
-    padding: 20px 45% ;
 }
 .links-content{
     max-width: 800px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding: 10px;
+}
+.copyright{
+    max-width: 800px;
+    color:white;
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+    margin:auto;
 }

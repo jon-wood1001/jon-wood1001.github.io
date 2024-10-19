@@ -2,6 +2,7 @@
 Personal Portfolio Site
 # Features
 ## About Me
+Bio
 ## Education
 ## Experience
 ## Projects

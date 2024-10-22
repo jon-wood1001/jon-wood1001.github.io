@@ -7,22 +7,22 @@
     text-decoration: none;
 }
 .header{
-    position:fixed;
     margin-top: 0px;
+    position: fixed;
+    padding: 20px 12%;
     top: 0;
     left: 0;
+    z-index: 100;
     width: 100%;
-    padding: 20px 12%;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(12px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(12px);
 }
 .logo {
-    font-size: 25px;
     color: white;
+    font-size: 25px;
     font-weight: 600;
     transition: 0.3s ease;
 }
@@ -32,11 +32,11 @@
     transform: scale(1.1)
 } 
 .navbar a{
+    margin: 0 20px;
+    color:  white;
     font-size: 20px;
     font-weight: 500;
-    margin: 0 20px;
     border-bottom: 3px solid transparent;
-    color:  white;
     transition: 0.3s ease;
 }
 .navbar a:hover,
@@ -47,26 +47,26 @@
     transform: scale(1.1)
 }
 .resume{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
     padding: 10px 30px;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 600;
     transition: 0.3s ease;
 }
 .resume:hover{
+    color: white;
     background: red;
     box-shadow: 0 0 25px red;
-    color: white;
     transform: scale(1.1);
 }
 /* THE FOLLOWING CODE DETAILS THE LAYOUT OF THE RESPECTIVE SECTIONS*/
 .about{
+    color: white;
+    background: #373A40;
     width: 100%;
     min-height: 60vh;
-    background: #373A40;
-    color: white;
     display: flex;
     align-items: center;
     gap: 7em;
@@ -97,13 +97,13 @@
     position: relative;
 }
 .text-animation span::before{
-    content: 'Software Developer';
     color: red;
+    content: 'Software Developer';
     animation: words 20s infinite;
 }
 .text-animation span::after{
-    content: "";
     background: #373A40;
+    content: "";
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
@@ -112,31 +112,19 @@
     animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 @keyframes cursor {
-    to {
-        border-left: 2px solid red;
-    }
+    to {border-left: 2px solid red;}
 }
 @keyframes words{
     0%,
-    20% {
-        content: "Software Developer"
-    }
+    20% {content: "Software Developer"}
     21%,
-    40% {
-        content: "Software Developer"
-    }
+    40% {content: "Software Developer"}
     41%,
-    60% {
-        content: "Software Developer"
-    }
+    60% {content: "Software Developer"}
     61%,
-    80% {
-        content: "Software Developer"
-    }
+    80% {content: "Software Developer"}
     81%,
-    100%{
-        content: "Software Developer"
-    }
+    100% {content: "Software Developer"}
 }
 @keyframes typing{
     10%,
@@ -161,8 +149,8 @@
     85% {width: calc(100% + 8px);}
 }
 .links{
-    width: 100%;
     background: rgba(0, 0, 0, 0.8);
+    width: 100%;
 }
 .links-content {
     margin: 1rem 1rem 1rem 0;
@@ -183,14 +171,14 @@
 
 }
 .links-content a:hover{
-    transform: scale(1.2);
     color: red;
-
+    transform: scale(1.2);
 }
 .experience{
+    color: white;
+    background: #373A40;
     width: 100%;
     min-height: 50vh;
-    background: lightblue;
     display: flex;
     align-items: center;
     gap: 7em;
@@ -200,22 +188,95 @@
     max-width: 800px;
 }
 .projects{
+    color: white;
+    background: #373A40;
     width: 100%;
     min-height: 50vh;
-    background: lightsalmon;
-    display: flex;
     align-items: center;
     gap: 7em;
     padding: 30px 12% 0;
 }
-.projects-content{
+.projects-box{
+    background-color: #707070;
     max-width: 800px;
+    height: 300px;
+    border-radius: 0.75rem;
+    transition: 0.3s ease;
+}
+.projects-box:hover{
+    box-shadow: 0 0 25px red, 0 0 25px red;
+    transform: scale(1.03);
+}
+.projects-box:hover h4{
+    color:red;
+}
+.projects-box .projects-info{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    height: 100%;
+    padding: 2rem 1.75rem;
+    overflow: auto;
+}
+.top {
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: end;
+    -webkit-box-align: end;
+    align-items: end;
+    padding: 5px 7px;
+    margin-right: 0;
+    font-size: 24px;
+}
+.top a {
+    color: white;
+}
+.project-title {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.project-desc {
+    font-size: 1rem;
+    font-weight: 100;
+    max-height: 100px;
+    margin: auto;
+}
+.projects h2 {
+    margin-bottom: 1rem;
+    font-size: 34px;
+    text-align: center;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2rem;
+    bottom: 0;
+}
+.skillset {
+    margin-left:auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.projects-skills li{
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    gap: 2rem;
+    display: inline-block;
+    background-color: crimson;
+    border-radius: 0.2rem;
 }
 .copyright{
-    max-width: 800px;
     color:white;
     font-size: 11px;
     text-align: center;
+    max-width: 800px;
     padding: 10px;
     margin:auto;
 }

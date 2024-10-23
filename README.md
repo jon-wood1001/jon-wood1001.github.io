@@ -6,6 +6,7 @@ Bio
 ## Education
 What school I went to
 ## Experience
+Under construction
 ## Projects
 ## Links
 * LinkedIn

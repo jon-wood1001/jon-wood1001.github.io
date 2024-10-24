@@ -8,6 +8,7 @@ What school I went to
 ## Experience
 Under construction
 ## Projects
+This project
 ## Links
 * LinkedIn
 * GitHub

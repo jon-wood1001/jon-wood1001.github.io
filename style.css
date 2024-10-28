@@ -216,11 +216,19 @@ section{
     gap: 7em;
     padding: 30px 12% 0;
 }
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    bottom: 0;
+}
 .projects-box{
     background-color: var(--project-card-bgc);
-    max-width: 800px;
+    min-width: 400px;
+    max-width: 400px;
     height: 300px;
-    border-radius: 0.75rem;
+    border-radius: 0.25rem;
     transition: 0.3s ease-in-out;
 }
 .projects-box:hover{
@@ -256,13 +264,12 @@ section{
     color: white;
 }
 .project-title {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 .project-desc {
-    font-size: 1rem;
-    font-weight: 100;
+    font-size: 0.90rem;
     max-height: 100px;
     margin: auto;
 }
@@ -270,13 +277,6 @@ section{
     margin-bottom: 1rem;
     font-size: 34px;
     text-align: center;
-}
-.projects-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    gap: 2rem;
-    bottom: 0;
 }
 .skillset {
     margin-left:auto;

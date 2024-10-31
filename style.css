@@ -305,7 +305,7 @@ section{
 }
 .projects h3{
     margin: 1rem;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
 }
 .skillset {
@@ -322,6 +322,9 @@ section{
     background-color: rgba(255, 0, 0, 0.55);
     font-weight: 500;
     border-radius: 0.50rem;
+}
+.project_archive_h3:hover{
+    transform: scale(1.15);
 }
 .copyright{
     color:white;

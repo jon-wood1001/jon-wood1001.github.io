@@ -3,12 +3,10 @@ Personal Portfolio Site
 # Features
 ## About Me
 Bio
-## Education
-What school I went to
 ## Experience
 Under construction
 ## Projects
-This project
+This project, other project
 ## Links
 * LinkedIn
 * GitHub

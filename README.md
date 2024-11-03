@@ -6,7 +6,7 @@ Bio
 ## Experience
 Under construction
 ## Projects
-This project, other project
+This project, other projects, project archive
 ## Links
 * LinkedIn
 * GitHub

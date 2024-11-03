@@ -2,7 +2,7 @@
 Personal Portfolio Site
 # Features
 ## About Me
-Bio
+Bio, Other Interests
 ## Experience
 Under construction
 ## Projects

@@ -4,7 +4,7 @@ Personal Portfolio Site
 ## About Me
 Bio, Other Interests
 ## Experience
-Under construction
+Under construction, Preview
 ## Projects
 This project, other projects, project archive
 ### Project Archive

@@ -8,7 +8,7 @@ Under construction, Preview
 ## Projects
 This project, other projects, project archive
 ### Project Archive
-This project, DERBi PIE, Crawl
+This project, DERBi PIE, Crawl, Academic
 ## Links
 * LinkedIn
 * GitHub

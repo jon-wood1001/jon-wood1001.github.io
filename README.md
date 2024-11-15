@@ -13,7 +13,6 @@ This project, other projects, project archive
 - Crawl
 - Academic
     - TBD
-
 ## Links
 * LinkedIn
 * GitHub

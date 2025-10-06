@@ -6,6 +6,7 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="header">
@@ -36,36 +37,28 @@
             </div>
         </section>
         <section class="experience" id="experience">
-            <div class="experience-content">
-                <h2 id="experience">Experience</h2>
-                <p><i>Under Construction - Preview</i></p>
-                <div class="experience-container">
-                    <div class="experience-box">
-                        <div class="experience-info">
-                            <header class="experience-info">
-                                
-                            </header>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="projects" id="projects">
-            <h2 id="projects">Notable Projects</h2>
-            <div class="projects-container">
-                <div class="projects-box">
-                    <div class="projects-info">
-                        <header class="inner-info">
+            <h2 id="experience">Experience</h2>
+            <div id="experience-container" class="experience-container">
+                <div class="experience-box">
+                    <div class="experience-info">
+                        <header class="experience-info">
                             <div class="top">
                                 <a target="_blank" href="https://github.com/jon-wood1001/jon-wood1001.github.io"><i class='bx bx-link-external'></i></a>
                             </div>
-                            <h4 class="project-title">Portfolio Web Page</h4>
-                            <div class="project-desc">
-                                <p>A curated showcase of my work, skills, and creative journey. Here, you’ll find projects that highlight my expertise in web programming and software development.</p>
+                            <h4 class="experience-title">IT Programmer Analyst for Web Applications (Intern)</h4>
+                            <h4 class="company">American Trim</h4>
+                            <h4 class="range"><i>January, 2025 - September 2025</i></h4>
+                            <div class="experience-desc">
+                                <ul>
+                                    <li>Developed and maintained web applications using PHP, HTML5, CSS3, and JavaScript to implement new features and resolve issues.</li>
+                                    <li>Analyzed user requirements, translating them into technical specifications and functional solutions.
+                                    <li>Created technical documentation and provided user support for deployed web tools.</li>
+                                </ul>
                             </div>
                         </header>
                         <footer class="skillset">
-                            <ul class="projects-skills">
+                            <ul class="skills">
+                                <li>PHP</li>
                                 <li>HTML5</li>
                                 <li>CSS3</li>
                                 <li>JavaScript</li>
@@ -73,45 +66,11 @@
                         </footer>
                     </div>
                 </div>
-                <div class="projects-box">
-                    <div class="projects-info">
-                        <header class="inner-info">
-                            <div class="top">
-                                <a target="_blank" href="https://github.com/jon-wood1001/DERBi-PIE"><i class='bx bx-link-external'></i></a>
-                            </div>
-                            <h4 class="project-title">DERBi PIE Integration</h4>
-                            <div class="project-desc">
-                                <p>Senior project in university. Worked with a team to integrate <a style="color:red; font-weight: 300; border-bottom: 1px solid red;" target="_blank" href="https://wordnet.princeton.edu/">WordNet<i class='bx bx-link-external'></i></a> into a application known as <a style="color:red; font-weight: 300; border-bottom: 1px solid red;" target="_blank" href="https://derbipie.as.uky.edu/search">DERBi PIE<i class='bx bx-link-external'></i></a>. The main goal was to map word roots to at least one WordNet synset.</p>
-                            </div>
-                        </header>
-                        <footer class="skillset">
-                            <ul class="projects-skills">
-                                <li>Python</li>
-                                <li>NLTK</li>
-                                <li>Jupyter</li>
-                            </ul>
-                        </footer>
-                    </div>
-                </div>
-                <div class="projects-box">
-                    <div class="projects-info">
-                        <header class="inner-info">
-                            <div class="top">
-                                <a target="_blank" href=""><i class='bx bx-link-external'></i></a>
-                            </div>
-                            <h4 class="project-title"></h4>
-                            <div class="project-desc">
-                                <p></p>
-                            </div>
-                        </header>
-                        <footer class="skillset">
-                            <ul class="projects-skills">
-                                <li></li>
-                            </ul>
-                        </footer>
-                    </div>
-                </div>
             </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 id="projects">Notable Projects</h2>
+            <div id="projects-container" class="projects-container"></div>
             <h3 class="project_archive_h3">Project Archive <a target="_blank" href="project_archive.html" style="color:white"><i class='bx bx-link-external'></i></a></h3>
         </section>
         <footer class="links">

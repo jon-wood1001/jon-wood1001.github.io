@@ -73,7 +73,7 @@ function createExperienceBox(index, experience) {
     experienceInfo.setAttribute("class","experience-info");
     // This is the experience-info header.
     var experienceHeader = document.createElement("header");
-    experienceHeader.setAttribute("class","experience-info");
+    experienceHeader.setAttribute("class","inner-info");
     // This is the top div.
     var experienceTop = document.createElement("div");
     experienceTop.setAttribute("class","top");

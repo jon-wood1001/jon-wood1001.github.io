@@ -42,6 +42,16 @@ const experience = {
 };
 const projects = {
     0 : {
+        "title" : "DERBi PIE Integration",
+        "description" : "<p>Senior project in university. Worked with a team to integrate <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://wordnet.princeton.edu/'>WordNet<i class='bx bx-link-external'></i></a> into a application known as <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://derbipie.as.uky.edu/search'>DERBi PIE<i class='bx bx-link-external'></i></a>. The main goal was to map word roots to at least one WordNet synset.</p>",
+        "skills" : [
+            "Python",
+            "NLTK",
+            "Jupyter"
+        ],
+        "link" : "https://github.com/jon-wood1001/DERBi-PIE",
+    },
+    1 : {
         "title" : "Portfolio Web Page",
         "description" : "A curated showcase of my work, skills, and creative journey. Here, you’ll find projects that highlight my expertise in web programming and software development.",
         "skills" : [
@@ -51,15 +61,25 @@ const projects = {
         ],
         "link" : "https://github.com/jon-wood1001/jon-wood1001.github.io",
     },
-    1 : {
-        "title" : "DERBi PIE Integration",
-        "description" : "<p>Senior project in university. Worked with a team to integrate <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://wordnet.princeton.edu/'>WordNet<i class='bx bx-link-external'></i></a> into a application known as <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://derbipie.as.uky.edu/search'>DERBi PIE<i class='bx bx-link-external'></i></a>. The main goal was to map word roots to at least one WordNet synset.</p>",
+    2 : {
+        "title" : "Goal Tracker",
+        "description" : "An application that allows the user to log notable milestones they had set for themselves. Integrated a reward-based system for achieving milestones.",
         "skills" : [
-            "Python",
-            "NLTK",
-            "Jupyter"
+            "Java",
+            "Spring Boot",
+            "Swing"
         ],
-        "link" : "https://github.com/jon-wood1001/DERBi-PIE",
+        "link" : "",
+    },
+    3 : {
+        "title" : "Unity Projects",
+        "description" : "Programmed and designed 2D and 3D gaming experiences within the Unity Engine. Focused on complex puzzles and intuitive game mechanics for a smooth and enjoyable user experience.",
+        "skills" : [
+            "Unity Game Engine",
+            "C#",
+            "2D/3D Design",
+        ],
+        "link" : "",
     }
 };
 
@@ -148,7 +168,9 @@ function createProjectsBox(index, projects) {
     var projectTop_i = document.createElement("i");
     projectTop_i.setAttribute("class", "bx bx-link-external");
     projectTop_a.append(projectTop_i);
-    projectTop.append(projectTop_a);
+    if(projects[index]["link"] !== "") {
+        projectTop.append(projectTop_a);
+    }
     projectHeader.appendChild(projectTop);
     // This is the experience-title h4.
     var projectTitle = document.createElement("h4");

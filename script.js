@@ -43,7 +43,7 @@ const experience = {
 const projects = {
     0 : {
         "title" : "DERBi PIE Integration",
-        "description" : "<p>Senior project in university. Worked with a team to integrate <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://wordnet.princeton.edu/'>WordNet<i class='bx bx-link-external'></i></a> into a application known as <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://derbipie.as.uky.edu/search'>DERBi PIE<i class='bx bx-link-external'></i></a>. The main goal was to map word roots to at least one WordNet synset.</p>",
+        "description" : "<p>Worked with a team to integrate <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://wordnet.princeton.edu/'>WordNet<i class='bx bx-link-external'></i></a> into a application known as <a style='color:red; font-weight: 300; border-bottom: 1px solid red;' target='_blank' href='https://derbipie.as.uky.edu/search'>DERBi PIE<i class='bx bx-link-external'></i></a>. The main goal was to map word roots to at least one WordNet synset.</p>",
         "skills" : [
             "Python",
             "NLTK",
